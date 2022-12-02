@@ -48,6 +48,7 @@ public class BaseConverter {
             toNum = DIGITS.charAt(index) + toNum;
             num /= toBase;
 
+
         }
         return (toNum.equals("")) ? "0" : toNum;
 
